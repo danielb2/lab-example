@@ -1,0 +1,15 @@
+{
+  "name": "lab-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -c -a code -v -m 9000 -t 100 --coverage-path lib -r console -o console.log -r console -o stdout -r html -o lab.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "code": "^4.0.0",
+    "lab": "^13.1.0"
+  }
+}
